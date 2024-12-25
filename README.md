@@ -26,8 +26,8 @@ This repository provides an end-to-end solution to provision an **Azure Kubernet
 ### **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/OmarReda/Microservices.git
+cd Microservices
 ```
 
 ---
@@ -106,9 +106,9 @@ az acr repository list --name <acr-name> --output table
 
 1.	Deploy the Kubernetes manifests:
 ```bash
-kubectl apply -f k8s/deployment.yaml
-kubectl apply -f k8s/service.yaml
-kubectl apply -f k8s/ingress.yaml
+kubectl apply -f ops/AKS Deployment/deployment.yaml
+kubectl apply -f k8s/AKS Deployment/service.yaml
+kubectl apply -f k8s/AKS Deployment/ingress.yaml
 ```
 2.	Verify the deployment:
 ```bash
