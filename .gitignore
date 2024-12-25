@@ -1,0 +1,3 @@
+.DS_Store
+ops/Provisioning/.terraform
+ops/Provisioning/.terraform.lock.hcl
